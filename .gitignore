@@ -1,0 +1,7 @@
+# Directories
+protobuf_*/
+protoc_*/
+output/
+
+# Files
+test*.bat
