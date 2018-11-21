@@ -1,0 +1,21 @@
+syntax = "proto2";
+
+option java_package = "com.agileeagle.webgame.game.handler.protobuf";
+option java_outer_classname = "Message";
+
+message MESSAGE{
+	required int32 header = 1;// 消息头
+	optional int32 receipt = 2;// 回执码
+	optional int32 sequence = 3;// 序列号
+	optional int32 compress = 4;// 是否压缩 null-不压缩 1-zip 2-lz4
+	optional int32 sourceLen = 5;// 来源大小(LZ4解压前大小)
+	optional int32 errorcode = 6;// 错误码
+	optional bytes body = 7;// 消息体
+	optional int32 type = 8;// 
+	optional int32 clientId = 9;
+	optional int32 uId = 10;
+	optional bool twoWay = 11;
+	optional int32 pushAction = 12;
+	repeated int32 recievers = 13;
+	optional string errorMsgParams = 14;
+}
