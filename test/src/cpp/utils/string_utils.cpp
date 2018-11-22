@@ -58,6 +58,11 @@ size_t StringUtils::Split(std::vector<std::string>& result, const std::string& o
     return result.size();
 }
 
+bool StringUtils::IsNullOrEmpty(const char* value)
+{
+    return (value == NULL || value[0] == '\0');
+}
+
 int StringUtils::ToInt(const char* value)
 {
     return ::atoi(value);

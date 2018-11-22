@@ -13,6 +13,7 @@ public:
     static char* GbkToUtf(const char* gb2312);
 
     static size_t Split(std::vector<std::string>& result, const std::string& origin, const std::string& spliter);
+    static bool IsNullOrEmpty(const char* value);
 
     static int ToInt(const char* value);
     static bool ToBool(const char* value);
