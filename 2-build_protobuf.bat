@@ -29,7 +29,7 @@ if exist "%VS140COMNTOOLS%\VsDevCmd.bat" (
     set CMAKE_GENERATOR="Visual Studio 15 2017"
 )
 ::设置编译版本 Debug Or Release
-set MODE="Release"
+set MODE="Debug"
 
 
 cd cmake

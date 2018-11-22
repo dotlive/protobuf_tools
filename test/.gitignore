@@ -1,5 +1,9 @@
 # Directories
 build*/
-cpp/output/
+src/cpp/bin/Debug/
+src/cpp/bin/MinSizeRel/
+src/cpp/bin/RelWithDebInfo/
+src/cpp/bin/Release/
 
 # Files
+*.pb

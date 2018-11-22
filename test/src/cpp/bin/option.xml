@@ -1,5 +1,5 @@
 <root>
-    <option key="output_dir" value="F:/gf_package/develop/protobuf_tools/test/data/"/>
+    <option key="output_dir" value="E:/UGameBlocks/Tools/protobuf_tools/test/data/"/>
     <option key="cpp_dir" value="cpp/"/>
     <option key="lua_dir" value="lua/"/>
     <option key="name_spliter" value="_"/>
